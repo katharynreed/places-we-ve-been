@@ -1,0 +1,54 @@
+.hidden-img {
+  display: none;
+}
+
+.container {
+  font-family: 'Covered By Your Grace', cursive;
+  background-image: url(http://www.wordmstemplates.com/wp-content/uploads/2015/08/lined-paper-template-9898.jpg);
+  background-repeat: no-repeat;
+  font-size: 45px;
+  width: 786px;
+  height: 1000px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+img {
+  width: 700px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.spain {
+  background-color: #AD1519;
+  color: #FFC400;
+}
+
+.scotland {
+  background-color: #00247D;
+  color: #FFF;
+}
+
+.portugal {
+  background-color: #0A9B4C;
+  color: #9F0004;
+}
+
+.ireland {
+  background-color: #fff;
+  color: #E76310;
+  border: 1px solid #319400;
+}
+
+.canada {
+  background-color: #ED1B24;
+  color: white;
+}

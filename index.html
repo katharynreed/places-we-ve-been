@@ -7,25 +7,35 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1>Places We Have Been</h1>
-      <form class="places">
-        <button class="btn spain" type="submit" name="spain">Spain</button>
+      <div class="text-center">
+        <h1>Places We Have Been</h1>
+        <form class="places">
+          <button class="btn btn-lg spain" type="submit" name="spain">Spain</button>
 
-        <button class="btn scotland" type="submit" name="scotland">Scotland</button>
+          <button class="btn btn-lg scotland" type="submit" name="scotland">Scotland</button>
 
-        <button class="btn portugal" type="submit" name="portugal">Portugal</button>
+          <button class="btn btn-lg portugal" type="submit" name="portugal">Portugal</button>
 
-        <button class="btn ireland" type="submit" name="ireland">Ireland</button>
+          <button class="btn btn-lg ireland" type="submit" name="ireland">Ireland</button>
 
-        <button class="btn canada" type="submit" name="canada">Canada</button>
-      </form>
+          <button class="btn btn-lg canada" type="submit" name="canada">Canada</button>
+        </form>
+      </div>
       <div class="show-places">
         <h2><span class="place"></span></h2>
         <p><span class="year"></span></p>
         <p><span class="memory"></span></p>
+      </div>
+      <div class="place-pictures">
+        <img class="hidden-img" id="spain-img" src="https://www.turismoasturias.es/documents/11022/40024/BioesferaPicosDeEuropa4.jpg/eb9c47e6-2a52-4972-aa2b-913592823fe5?t=1402648188203" alt="A photo of the picos de europa, spain"/>
+        <img class="hidden-img" id="scotland-img" src="http://nebula.wsimg.com/a1254131cf4d771112787636ba843316?AccessKeyId=C6C1CB9C17A5BDDE8423&disposition=0&alloworigin=1" alt="A photo of the Easternmost Scottish Highlands"/>
+        <img class="hidden-img" id="portugal-img" src="https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i3896a45d3482f0b6/version/1471520592/lisbon.jpg" alt="A photo of Lisbon, Portugal"/>
+        <img class="hidden-img" id="ireland-img" src="http://mei.ie/wp-content/uploads/2016/04/landscape_-aran-islands.jpg" alt="A photo of the mid Aran Island, Ireland"/>
+        <img class="hidden-img" id="canada-img" src="http://www.planetware.com/photos-large/CDN/canada-victoria-empress.jpg" alt="A photo of Victoria, Canada"/>
       </div>
     </div>
   </body>
