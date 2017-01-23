@@ -50,14 +50,3 @@ $(document).ready(function() {
     $(".memory").text(canada.memory);
   });
 });
-
-
-// $(".reveal").last().click(function() {
-//   $(".hidden").text(newDestition.place);
-
-
-
-
-
-// $(".reveal").click(function() {
-//   $(this).children().show();
