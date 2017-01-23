@@ -15,11 +15,49 @@ var portugal = new Destination("Portugal", "2009", "Lisbon at night");
 //user interface logic
 
 $(document).ready(function() {
+  $("button.spain").click(function(event) {
+    event.preventDefault();
+    $(".place").text(spain.place);
+    $(".year").text(spain.year);
+    $(".memory").text(spain.memory);
+  });
 
-  var newDestination = new Destination()
-  $("span#hidden").text(newDestition);
+  $("button.scotland").click(function(event) {
+    event.preventDefault();
+    $(".place").text(scotland.place);
+    $(".year").text(scotland.year);
+    $(".memory").text(scotland.memory);
+  });
 
-  $(".reveal").click(function() {
-    $(this).children().show();
+  $("button.portugal").click(function(event) {
+    event.preventDefault();
+    $(".place").text(portugal.place);
+    $(".year").text(portugal.year);
+    $(".memory").text(portugal.memory);
+  });
+
+  $("button.ireland").click(function(event) {
+    event.preventDefault();
+    $(".place").text(ireland.place);
+    $(".year").text(ireland.year);
+    $(".memory").text(ireland.memory);
+  });
+
+  $("button.canada").click(function(event) {
+    event.preventDefault();
+    $(".place").text(canada.place);
+    $(".year").text(canada.year);
+    $(".memory").text(canada.memory);
   });
 });
+
+
+// $(".reveal").last().click(function() {
+//   $(".hidden").text(newDestition.place);
+
+
+
+
+
+// $(".reveal").click(function() {
+//   $(this).children().show();

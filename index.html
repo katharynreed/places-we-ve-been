@@ -11,12 +11,21 @@
   <body>
     <div class="container">
       <h1>Places We Have Been</h1>
-      <div id="list-of-places">
-        <div class="spain reveal">Spain: <span class="hidden" id="brynnaspain"></span></div>
-        <div class="scotland reveal">Scotland: <span class="hidden" id="katiescotland"></span></div>
-        <div class="canada reveal">Canada: <span class="hidden" id="brynnacanada"></span></div>
-        <div class="ireland reveal">Ireland: <span class="hidden" id="katieireland"></span></div>
-        <div class="portugal reveal">Portugal: <span class="hidden" id="brynnaportugal"></span></div>
+      <form class="places">
+        <button class="btn spain" type="submit" name="spain">Spain</button>
+
+        <button class="btn scotland" type="submit" name="scotland">Scotland</button>
+
+        <button class="btn portugal" type="submit" name="portugal">Portugal</button>
+
+        <button class="btn ireland" type="submit" name="ireland">Ireland</button>
+
+        <button class="btn canada" type="submit" name="canada">Canada</button>
+      </form>
+      <div class="show-places">
+        <h2><span class="place"></span></h2>
+        <p><span class="year"></span></p>
+        <p><span class="memory"></span></p>
       </div>
     </div>
   </body>
